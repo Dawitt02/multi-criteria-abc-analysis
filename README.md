@@ -1,7 +1,13 @@
 
-# Data Processing and Analysis Suite
+# Automatic Multi Criteria ABC analysis
 
-A suite of Python scripts for data processing, analysis, and applying constraints.
+Mit diesem Programm wurde eine Möglichkeit geschaffen, eine große Anzahl an Produkten, auf Basis von unüberwachtem lernen, in die Kategorien A,B und C einzuteilen. Grundsätzlich funktioniert die Anwendung wie eine ABC Analyse, mit dem wesentlichen Zusatz, dass bis zu 7 identifizierte Merkmale gleichzeitig berückishctigt werden können anstatt nur eine. 
+
+Gruppe A --> Items die wichtigsten und entscheidensten für das unternehmen sind
+Gruppe B --> Items die wichtig sind, aber nicht den höchsten Stellenwert haben
+Gruppe C --> Items die eine untergeordnete Rolle spielen
+
+Anhand von verschiedenen Einstellungsparametern kann ein Gewichtung der Parameter erfolgen.
 
 ## Table of Contents
 
@@ -32,11 +38,11 @@ The main script (`main.py`) allows you to set all necessary parameters for funct
 
 1. Clone the repository:
     \`\`\`sh
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/dawitt02/multi-criteria-abc-analysis.git
     \`\`\`
 2. Navigate to the project directory:
     \`\`\`sh
-    cd your-repo-name
+    cd multi-criteria-abc-analysis
     \`\`\`
 3. (Optional) Create and activate a virtual environment:
     \`\`\`sh
