@@ -1,13 +1,12 @@
 
 # Automatic Multi Criteria ABC analysis
 
-Mit diesem Programm wurde eine Möglichkeit geschaffen, eine große Anzahl an Produkten, auf Basis von unüberwachtem lernen, in die Kategorien A,B und C einzuteilen. Grundsätzlich funktioniert die Anwendung wie eine ABC Analyse, mit dem wesentlichen Zusatz, dass bis zu 7 identifizierte Merkmale gleichzeitig berückishctigt werden können anstatt nur eine. 
+This program provides a method to categorize a large number of products into A, B, and C categories based on unsupervised learning techniques. Essentially, it functions like an ABC analysis with the significant addition that up to seven identified features can be considered simultaneously, rather than just one.
 
-Gruppe A --> Items die wichtigsten und entscheidensten für das unternehmen sind
-Gruppe B --> Items die wichtig sind, aber nicht den höchsten Stellenwert haben
-Gruppe C --> Items die eine untergeordnete Rolle spielen
-
-Anhand von verschiedenen Einstellungsparametern kann ein Gewichtung der Parameter erfolgen.
+Group A: Items that are the most important and critical for the company.
+Group B: Items that are important but do not have the highest priority.
+Group C: Items that play a subordinate role.
+Various configuration parameters allow for the weighting of these features.
 
 ## Table of Contents
 
